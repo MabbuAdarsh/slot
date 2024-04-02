@@ -1,5 +1,5 @@
 # Ex03 Time Table
-## Date:
+## Date: 02.04.2024
 
 ## AIM
 To write a html webpage page to display your slot timetable.
@@ -34,7 +34,7 @@ Execute the program using runserver command.
             <img src="/static/logo.png" height="100"width="540">
         </center>
         <br>
-        <table align="center" width="540">
+        <table align="center" width="540" cellpadding="10" border="5" bgcolor="cyan">
             <caption><b>SLOT TIMETABLE MABBU ADARSH (212223100028)</b></caption>
             <tr align="center">
                 <th bgcolor="yellow">Day/Time</th>
@@ -47,42 +47,42 @@ Execute the program using runserver command.
             <tr align="center">
                 <th bgcolor="yellow">8-10</th>
                 <td bgcolor="gray">FREE SLOT</td>
-                <td bgcolor="blue">SOFTWARE ENGINEERING</td>
-                <td bgcolor="blue">PHYSICS FOR QUANTUN COMPUTER</td>
-                <td bgcolor="blue">COMMUNACATIVE ENGLISH</td>
+                <td bgcolor="maroon">SOFTWARE ENGINEERING</td>
+                <td bgcolor="salmon">PHYSICS FOR QUANTUN COMPUTER</td>
+                <td bgcolor="gray">COMMUNACATIVE ENGLISH</td>
                 <td bgcolor="blue">CREATIVE SKILLS </td>
             </tr>
             <tr align="centre">
                 <th bgcolor="yellow">10-12</th>
                 <td bgcolor="gray">FREE SLOT</td>
-                <td bgcolor="blue">FUNDAMENTALS OF WEB APPLICATION DEVLOPMENT</td>
-                <td bgcolor="gray">FREE SLOT</td>
-                <td bgcolor="blue">PRINCIPLES OF CHEMISTRY IN ENGINEERING</td>
-                <td bgcolor="blue">PHYSICS FOR INFORMATION TECHNOLOGY</td>
+                <td bgcolor="teal">FUNDAMENTALS OF WEB APPLICATION DEVLOPMENT</td>
+                <td bgcolor="magenta">FREE SLOT</td>
+                <td bgcolor="lavender">PRINCIPLES OF CHEMISTRY IN ENGINEERING</td>
+                <td bgcolor="navy blue">PHYSICS FOR INFORMATION TECHNOLOGY</td>
             </tr>
             <tr align="centre">
                 <th bgcolor="yellow">12-1</th>
-                <td bgcolor="blue">LUNCH</td>
-                <td bgcolor="red">MENTOR MEET</td>
-                <td bgcolor="blue">LUNCH</td>
-                <td bgcolor="blue">LUNCH</td>
-                <td bgcolor="blue">LUNCH</td>
+                <td bgcolor="indigo">LUNCH</td>
+                <td bgcolor="sea green">MENTOR MEET</td>
+                <td bgcolor="olive">LUNCH</td>
+                <td bgcolor="silver">LUNCH</td>
+                <td bgcolor="mint">LUNCH</td>
             </tr>
             <tr align="centre">
                 <th bgcolor="yellow">1-3</th>
                 <td bgcolor="blue">SOFT SKILLS</td>
-                <td bgcolor="gray">FREE SLOT</td>
-                <td bgcolor="gray">FREE SLOT</td>
-                <td bgcolor="blue">CALCULUS AND MATRIX ALGEBRA</td>
+                <td bgcolor="orange">FREE SLOT</td>
+                <td bgcolor="lavender">FREE SLOT</td>
+                <td bgcolor="pink">CALCULUS AND MATRIX ALGEBRA</td>
                 <td bgcolor="gray">FREE SLOT</td>
             </tr>
             <tr align="centre">
                 <th bgcolor="yellow">3-5</th>
-                <td bgcolor="blue">PRINCIPLES OF CHEMISTRY IN ENGINEERING</td>
-                <td bgcolor="gray">FREE SLOT</td>
-                <td bgcolor="blue">FUNDAMENTALS OF WEB APPLICATION DEVLOPMENT</td>
-                <td bgcolor="blue">SOFTWARE ENGRINEEING</td>
-                <td bgcolor="gray">FREE SLOT</td>
+                <td bgcolor="purple">PRINCIPLES OF CHEMISTRY IN ENGINEERING</td>
+                <td bgcolor="violet">FREE SLOT</td>
+                <td bgcolor="lime green">FUNDAMENTALS OF WEB APPLICATION DEVLOPMENT</td>
+                <td bgcolor="gray">SOFTWARE ENGRINEEING</td>
+                <td bgcolor="arctic blue">FREE SLOT</td>
             </tr>
         </table>
         <br>
@@ -129,7 +129,7 @@ Execute the program using runserver command.
 ```
 
 ## OUTPUT
+![alt text](<Screenshot 2024-04-02 103048.png>)
 
-![alt text](<Screenshot 2024-03-22 092518-1.png>)
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
